@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "boost-test",
+  "version-string": "1.0.0",
+  "dependencies":
+  [
+    "boost-serialization",
+    "boost-program-options",
+    "boost-asio",
+    "boost-iostreams",
+    "boost-filesystem",
+    "boost-config",
+    "boost-type-traits",
+    "boost-detail",
+	"boost-interprocess",
+	"boost-ptr-container",
+	"boost-scope-exit"
+  ],
+  "builtin-baseline": "1ba9a2591f15af5900f2ce2b3e2bf31771e3ac48"
+}

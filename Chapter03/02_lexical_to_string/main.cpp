@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 // Boost.LexicalCast way of converting to strings:
 #include <cassert>
 #include <boost/lexical_cast.hpp>

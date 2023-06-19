@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 void unique_ptr_example();
 
 #include <boost/scope_exit.hpp>

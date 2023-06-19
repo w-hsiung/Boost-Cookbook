@@ -25,7 +25,7 @@ public:
 
 #include <string.h>
 descriptor_owner::descriptor_owner(const char* param)
-    : descriptor_(strdup(param))
+    : descriptor_(_strdup(param))
 {}
 
 
@@ -91,7 +91,7 @@ void foo_rv() {
 }
 
 descriptor_owner1::descriptor_owner1(const char* param)
-    : descriptor_(strdup(param))
+    : descriptor_(_strdup(param))
 {}
 
 #else
@@ -111,7 +111,7 @@ public:
     {}
 
     explicit descriptor_owner_movable(const char* param)
-        : descriptor_(strdup(param))
+        : descriptor_(_strdup(param))
     {}
 
     descriptor_owner_movable(

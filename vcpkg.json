@@ -22,7 +22,8 @@
     "boost-coroutine2",
     "boost-graph",
     "boost-test",
-    "boost-gil"
+    "boost-gil",
+    "libpng"
   ],
   "builtin-baseline": "1ba9a2591f15af5900f2ce2b3e2bf31771e3ac48"
 }

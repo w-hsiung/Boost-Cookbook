@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <png.h>
 
 // MinGW workarounds for https://svn.boost.org/trac10/ticket/3908 :
@@ -73,6 +75,7 @@ int main(int argc, char *argv[]) {
     std::string file_name(argv[1]);
     boost::gil::png_read_image(file_name, source);
 
+#pragma warning(suppress : 4996)
     boost::gil::apply_operation(
         view(source),
         negate()

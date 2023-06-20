@@ -10,6 +10,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_tasks_processor_network_client", "03_tasks_processor_network_client\03_tasks_processor_network_client.vcxproj", "{2D42F004-80A3-4DA4-8B58-9009440693DC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_tasks_processor_network_accept", "04_tasks_processor_network_accept\04_tasks_processor_network_accept.vcxproj", "{92B8B56F-D0B0-48B4-9E27-1A5BC1A9C30B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D42F004-80A3-4DA4-8B58-9009440693DC} = {2D42F004-80A3-4DA4-8B58-9009440693DC}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_tasks_processor_multithread", "05_tasks_processor_multithread\05_tasks_processor_multithread.vcxproj", "{7F4D6C89-22AF-4336-9889-4B071BFBDEAD}"
 EndProject

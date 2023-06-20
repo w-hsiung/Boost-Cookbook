@@ -15,7 +15,8 @@
 	"boost-interprocess",
 	"boost-ptr-container",
 	"boost-scope-exit",
-	"boost-format"
+	"boost-format",
+	"boost-bimap"
   ],
   "builtin-baseline": "1ba9a2591f15af5900f2ce2b3e2bf31771e3ac48"
 }

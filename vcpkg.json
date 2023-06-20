@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
-  "name": "boost-test",
-  "version-string": "1.0.0",
+  "name": "boost-cookbook",
+  "version-string": "1.0.1",
   "dependencies":
   [
     "boost-serialization",
@@ -19,7 +19,10 @@
     "boost-bimap",
     "boost-dll",
     "boost-stacktrace",
-    "boost-coroutine2"
+    "boost-coroutine2",
+    "boost-graph",
+    "boost-test",
+    "boost-gil"
   ],
   "builtin-baseline": "1ba9a2591f15af5900f2ce2b3e2bf31771e3ac48"
 }
